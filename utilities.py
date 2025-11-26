@@ -15,4 +15,4 @@ def parseWeight (text):
     if(text.find('lb)') > -1):
         splitted = text.replace(')','').split('(')
         return [splitted[0].strip(),splitted[1].strip()]
-    return [text, 0]
+    return [text, None]
